@@ -1,0 +1,166 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Playpen Sans', cursive;
+}
+.menu{
+    width: 100%;
+    height: 300px;
+    padding-left: 400px;
+}
+.menu ul{
+   list-style: none;
+   margin-left: 200px;
+   padding: 0px;
+  
+
+}
+.menu li{
+    position: relative;
+    float: left;
+    width: 120px;
+
+}
+.menu ul li ul{
+    display: none;
+}
+.menu ul li:hover ul{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    background-color:#333;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+.menu ul li a:hover{
+    background-color: red;
+    color: yellow;
+}
+main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.instagram{
+border: 0px solid black;
+width: 300px;
+height: 200px;
+box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.instagram:hover{
+box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+
+}
+.instagram ul li a{
+text-decoration: none; 
+font-size: 30px;
+display: flex;
+justify-content: start;
+
+
+}
+.instagram ul{
+list-style: none;
+}
+.img1{
+width: 300px;
+height: 200px;
+}
+.facebook{
+    border: 0px solid black;
+width: 300px;
+height: 200px;
+box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.facebook:hover{
+    box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+}
+.facebook ul li a{
+    text-decoration: none; 
+font-size: 30px;
+display: flex;
+justify-content: start;
+
+}
+.facebook ul{
+    list-style: none;
+}
+.twitter{
+border: 0px solid black;
+width: 300px;
+height: 200px;
+box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.twitter:hover{
+    box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+}
+.twitter ul li a{
+     text-decoration: none; 
+font-size: 30px;
+display: flex;
+justify-content: start;
+
+}
+.twitter ul{
+    list-style: none;
+}
+.youtube{
+    border: 0px solid black;
+width: 300px;
+height: 200px;
+box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.youtube:hover{
+    box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px -15px 5px 0px rgba(0,0,0,0.75);
+}
+.youtube ul li a{
+    text-decoration: none; 
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    
+}
+.youtube ul{
+    list-style: none;
+}
+.fa-brands{
+    gap: 10px;
+}
+.video{
+    display: block;
+    border: 1px solid black;
+    width: 650px;
+    height: 500px;
+    
+}
+.harita{
+    display: block;
+    border: 1px solid black;
+    width: 650px;
+    height: 500px;
+} 
+.footer{
+    display: flex;
+    gap: 100px;
+}
+
